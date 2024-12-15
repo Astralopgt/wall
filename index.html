@@ -153,6 +153,25 @@
         .mute-button:active img {
             filter: brightness(1);
         }
+
+        .footer {
+            position: absolute;
+            bottom: 20px;
+            width: 100%;
+            text-align: center;
+            font-size: 1em;
+            color: #e0e0e0;
+            font-weight: bold;
+        }
+
+        .footer a {
+            color: #673ab7;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
@@ -167,9 +186,9 @@
     </div>
 
     <div class="container" id="profile-container">
-        <img src="wallprofile.png" alt="Profile Picture" class="profile-pic">
+        <img src="https://i.imghippo.com/files/Mou6913cAk.png" alt="Profile Picture" class="profile-pic">
         <h1>astral</h1>
-        <p>Hi, I'm Astral! I'm a 14-year-old game modder and creator. I make mods for a lot of games. I love making new game development projects and love to collab with other devs.</p>
+        <p>im wall and i identify as a fish getting hit by a train!</p>
 
         <div class="button-container">
             <button class="button" onclick="window.open('https://discord.com/users/797844342333112370')">
@@ -178,12 +197,16 @@
         </div>
 
         <audio id="background-audio" loop>
-            <source src="wall.mp3" type="audio/mpeg">
+            <source src="music.mp3" type="audio/mpeg">
         </audio>
 
         <button class="mute-button" onclick="toggleMute()">
             <img id="mute-icon" src="https://img.icons8.com/color/48/000000/mute.png" alt="Mute">
         </button>
+    </div>
+
+    <div class="footer">
+        made by astral! my page: <a href="https://astralopgt.github.io" target="_blank">astralopgt.github.io</a>
     </div>
 
     <script>
